@@ -1,0 +1,134 @@
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 10px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 15px;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+header ul a:hover {
+    background-color: #555;
+}
+
+/* Section Styling */
+section {
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2, section h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section p, pre {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+    text-align: justify;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid #333;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Skills Styling */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills li {
+    margin: 10px 0;
+}
+
+progress {
+    width: 50%;
+    height: 20px;
+    vertical-align: middle;
+}
+
+/* Resume Link */
+#resume a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #007bff;
+}
+
+#resume a:hover {
+    text-decoration: underline;
+}
+
+/* Web Page Links */
+section a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Marquee Styling */
+marquee {
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: #ddd;
+    padding: 10px;
+    color: #444;
+}
